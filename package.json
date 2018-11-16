@@ -12,6 +12,9 @@
 		"type": "git",
 		"url": "http://github.com/cferdinandi/bouncer"
 	},
+	"scripts": {
+		"version": "version-changelog CHANGELOG.md && changelog-verify CHANGELOG.md && git add CHANGELOG.md"
+	},
 	"devDependencies": {
 		"changelog-verify": "^1.1.0",
 		"del": "^2.2.2",
