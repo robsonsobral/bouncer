@@ -12,6 +12,11 @@
 		"type": "git",
 		"url": "http://github.com/cferdinandi/bouncer"
 	},
+	"scripts": {
+		"build": "gulp default",
+		"dev": "gulp watch",
+		"gulp": "gulp"
+	},
 	"devDependencies": {
 		"gulp": "^3.9.1",
 		"node-fs": "^0.1.7",
